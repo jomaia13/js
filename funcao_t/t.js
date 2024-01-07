@@ -5,4 +5,4 @@
 t = (t) => { console.log('-'.repeat(15), t, '-'.repeat(15)); }
 
 
-export default t()
+export default t

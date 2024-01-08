@@ -1,4 +1,4 @@
-// instrções condicionais | conditional branching (ramificação)
+// instruções condicionais | conditional branching (ramificação)
 // if statement e ? operator
 
 // if statement 

@@ -1,2 +1,3 @@
-let dataHora = new Date()
-console.log(dataHora.getHours())
+// HORA DA REVISAO - VAMOS REVER TODO CONTEUDO ESTUDADO E SEMPRE QUE POSSIVEL 
+// VAMOS USAR COM EXEMPLOS PRATICOS 
+

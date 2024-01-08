@@ -11,7 +11,7 @@ console.clear()
 //     console.log(numero2)
 //     numero2--
 // }
-
+// 
 // let n = 1;
 // while(n <= 10) console.log(n++)
 

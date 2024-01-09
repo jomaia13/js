@@ -3,4 +3,5 @@
 
 let comparacao = '40';
 let resultado = comparacao == 40 ? 'sim' : 'nao';
-console.log(resultado) 
+console.log(resultado);
+

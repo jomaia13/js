@@ -5,3 +5,4 @@ let comparacao = '40';
 let resultado = comparacao == 40 ? 'sim' : 'nao';
 console.log(resultado);
 
+// estudando funcoes

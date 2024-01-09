@@ -38,5 +38,6 @@ if(condicao){
 // CONDITIONAL OPERATOR
 
 let nome = 'joao';
-let verificacao = nome == "joao" ? "sim" : "nao";
+// ---------------aqui começa a ser usado a xondicional if
+let verificacao = nome == "joao" ? "sim" : "nao"; 
 console.log("o utilizador está autorizado?" + verificacao);

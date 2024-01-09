@@ -50,3 +50,4 @@ ciclo: for(let valor1 = 1; valor1 <= 4; valor1++){
     }
 }
 console.log('terminado')
+

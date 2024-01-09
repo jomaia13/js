@@ -34,15 +34,13 @@ while (n <= 10) console.log(n++)
 // DO WHILE
 let num = 1;
 do {
-
     console.log(num);
     num++
-} while (num < 10);
+} while (num <= 10);
 
 
 let num2 = 1;
 do {
-
     console.log(num2);
     num2++
     if (num2 > 6) break

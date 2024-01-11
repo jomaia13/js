@@ -1,0 +1,20 @@
+{
+  "name": "curso_js",
+  "version": "1.0.0",
+  "description": "aprendendo js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomaia13/js.git"
+  },
+  "author": "jo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomaia13/js/issues"
+  },
+  "type": "commonjs",
+  "homepage": "https://github.com/jomaia13/js#readme"
+}

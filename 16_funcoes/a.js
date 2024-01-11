@@ -1,9 +1,10 @@
 console.clear()
 
-// // função sem parametro
-// function apresentar_mensagem() {
-//     console.log('ola mundo')
-// }
+// função sem parametro
+function apresentar_mensagem() {
+    console.log('ola mundo')
+}
+
 
 // apresentar_mensagem()
 
@@ -51,7 +52,7 @@ console.clear()
 // }
 //  executar();
 //  console.log(nome)
-    
+
 // // -------------------------------------
 // // funcoes com parametros com valores
 // function multiplicar(a, b = 5){
@@ -66,8 +67,8 @@ console.clear()
 // parametros por padrao indefinido
 // undefined, || ou nullish
 function apresentar_valor(valor) {
-    // if(valor === undefined) valor = 100;
-    valor = valor || 100;
+    if(valor === undefined) valor = 100;
+    // valor = valor || 100;
     console.log(valor);
 }
 apresentar_valor()

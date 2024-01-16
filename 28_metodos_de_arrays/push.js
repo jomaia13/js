@@ -1,10 +1,4 @@
-/**
- * @param: t espera uma string
- * @function: t('string') separador de tarefas com titulo...
- */
-t = (t) => { console.log('-'.repeat(15), t, '-'.repeat(15)); }
-
-console.clear()
+const t = require('../REVISAO/t')
 t('inicio do código')
 
 // adiciona um valor do final do array

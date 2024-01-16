@@ -9,10 +9,9 @@ t('inicio do código')
 
 // shift retira um valor do inicio do array
 let nomes = ['cristina', 'vaneilza', 'pamela'];
-nomes.shift()
 console.log(nomes)
+nome_retirado = nomes.shift()
 
 t('nome retirado e colocado em variavel')
-let nome_retirado = nomes.shift()
 console.log(nomes)
 console.log(nome_retirado)

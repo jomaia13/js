@@ -1,13 +1,9 @@
-/**
- * @param: t espera uma string
- * @function: t('string') separador de tarefas com titulo...
- */
-t = (t) => { console.log('-'.repeat(15), t, '-'.repeat(15)); }
-
-console.clear()
+const t = require('../REVISAO/t')
 t('inicio do código')
 
 // unshift - adiciona um valor no inicio do array
 let nomes = ['vaneilza', 'cristina']
+console.log(nomes)
+t('adicionado bruna no inicio do array')
 nomes.unshift('bruna')
 console.log(nomes)

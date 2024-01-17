@@ -1,23 +1,27 @@
+// promise 
+
 const t = require('../REVISAO/t')
- 
+
+t('iniciando codigo - promises')
+
 const umaPromessa = new Promise((resolve, reject) => {
-    let soma = 1 + 3;
-    if(soma === 2){
+    let soma = 1 + 3
+    if (soma === 3) {
         resolve('tudo certo')
-    }else{
-        reject('tudo errado')
+    } else {
+        reject('deu erro')
     }
 })
 
-console.log('esperando promise ...')
+console.log('esperando uma promise')
 
+// tratando o resultado da promise
 umaPromessa.then((resultado) => {
-    console.log(`valor do then R$ -then ${resultado}`)
+    console.log(`valor do then ${resultado}`)
 }).catch((erro) => {
-    console.error(`valor do catch =${erro}`)
-}).finally(() => {
-    console.log('independentedo resultado, eu estarei aki ')
+    console.log(`valor do catch ${erro}`)
+}).finally(()=>{
+    console.log('independente do resultado eu estarei aki')
 })
 
-
-console.log(`isso vai ser logado antes da promise `)
+console.log('>>>>> logado antes da promise <<<<<')

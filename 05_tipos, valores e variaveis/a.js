@@ -5,8 +5,9 @@
     Os tipos em javascript podem ser divididos em duas categorias -
     - tipos primitivos:
         numeros, strings, boolean, null e undefined
-        - Qualquer valor que nao seja acima citado, é um objeto.
-
-    - tipos de objeto:
         
+        - Qualquer valor que nao seja acima citado, é um objeto.
+    - tipos de objeto:
+        objetos, arrays, funções 
+
 */

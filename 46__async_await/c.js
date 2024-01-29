@@ -3,7 +3,7 @@ const userName = "jomaia13";
 fetch(`https://api.github.com/users/${userName}`, {
     method: 'GET',
     headers: {
-        Accept: `Application/vnd.github.+json`,
+        Accept: `Application/vnd.github.ac3+json`,
     },
 })
     .then((response) => {

@@ -13,3 +13,6 @@ const resolvedoraDePromiseAsincrona = async () => {
 }
 
 resolvedoraDePromiseAsincrona()
+
+const num = Math.random(6, 48)
+console.log(num)

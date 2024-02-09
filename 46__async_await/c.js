@@ -1,18 +1,19 @@
-const userName = "jomaia13";
+const userName = "jomaia";
 
-fetch(`https://api.github.com/users/${userName}`, {
+fetch(`https://api.github.com/${userName}`, {
     method: 'GET',
     headers: {
-        Accept: `Application/vnd.github.ac3+json`,
+        Accept: `Application/vnd.github.+json`,
     },
 })
     .then((response) => {
-        console.log(typeof response)
-        console.log(response)
+        console.table(typeof response)
+        console.table(response)
         return response.json()
     })
     .then((data) => {
-        console.log(`o nome do usuário é ${data.name}`)
+        console.table(`o nome do usuário é ${data.name}`)
+        console.log('dados encontrados')
     })
     .catch((err) => {
         console.log('ouve algun erro', err)

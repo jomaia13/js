@@ -14,11 +14,12 @@ if(valor_a < valor_b){
 }
 
 // segunda forma de usar if 
-if(valor_a < valor_b) console.log("ok !!!")
+if(valor_a < valor_b) console.log("ok !!!");
 
 // ELSE
+let condicao = 1
 
-if(condicao){
+if(condicao){    
     // se condicao for verdadeira
 }else{
     // se condicao for falsa
